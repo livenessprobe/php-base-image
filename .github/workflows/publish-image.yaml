@@ -1,6 +1,9 @@
 name: Build php runtime
 
 on:
+  create:
+    tags:
+      - "*"
   push:
     tags:
       - "*"
