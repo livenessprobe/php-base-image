@@ -5,7 +5,7 @@ on:
     tags:
       - "*"
     paths:
-      - ./github/workflows/build-php-runtime.yaml
+      - ./github/workflows/publish-image.yaml
 
 jobs:
   build:
@@ -30,7 +30,7 @@ jobs:
       - name: Build arm64 additionaly and push multiarch image to dockerhub
         uses: docker/build-push-action@v4
         with:
-          context: "php-runtime/"
+          context: .
           push: true
           tags: "${{ steps.image.outputs.NAME }}"
           platforms: linux/amd64,linux/arm64
