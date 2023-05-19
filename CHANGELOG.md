@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/livenessprobe/php-base-image/compare/v1.0.1...v1.0.2) (2023-05-19)
+
+
+### Bug Fixes
+
+* **ci:** trigger ([984c2ab](https://github.com/livenessprobe/php-base-image/commit/984c2aba6afbe8f5e75bb083da15a21167d8679c))
+
 ## [1.0.1](https://github.com/livenessprobe/php-base-image/compare/v1.0.0...v1.0.1) (2023-05-19)
 
 
