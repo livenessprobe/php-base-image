@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# https://github.com/aptible/supercronic
+# https://github.com/aptible/supercronic/releases
+
 ARCH=$(uname -m)
 
 if [ "$ARCH" = "x86_64" ]; then
