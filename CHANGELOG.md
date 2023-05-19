@@ -1,0 +1,19 @@
+# Changelog
+
+## [1.1.0](https://github.com/livenessprobe/php-base-image/compare/v1.0.1...v1.1.0) (2023-05-19)
+
+
+### Features
+
+* init version ([ed9b9aa](https://github.com/livenessprobe/php-base-image/commit/ed9b9aa1f43b0520a5583e24b951d7ae9ab34daa))
+
+
+### Bug Fixes
+
+* pipeline config ([0a7a278](https://github.com/livenessprobe/php-base-image/commit/0a7a2782782139ec7dcd32df0c7f9e521bd333e0))
+
+
+### Miscellaneous
+
+* **main:** release 1.0.0 ([19074c7](https://github.com/livenessprobe/php-base-image/commit/19074c72777f28910c4418275155e455e0948927))
+* **main:** release 1.0.1 ([#2](https://github.com/livenessprobe/php-base-image/issues/2)) ([0e26a67](https://github.com/livenessprobe/php-base-image/commit/0e26a678126f7d02ab376446a0126c856692d905))
