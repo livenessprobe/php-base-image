@@ -24,13 +24,13 @@ jobs:
       - name: Login to Dockerhub
         uses: docker/login-action@v2
         with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          username: ${{ secrets.QUAY_USERNAME }}
+          password: ${{ secrets.QUAY_TOKEN }}
 
-      - name: Build arm64 additionaly and push multiarch image to dockerhub
+      - name: Build arm64 additionaly and push multiarch image to container registry
         uses: docker/build-push-action@v4
         with:
           context: .
           push: true
-          tags: "${{ steps.image.outputs.NAME }}"
+          tags: "quay.io/livenessprobe/php-base-image:${{ github.ref_name }}"
           platforms: linux/amd64,linux/arm64
