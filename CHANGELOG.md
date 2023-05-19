@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.0](https://github.com/livenessprobe/php-base-image/compare/v1.1.1...v1.0.0) (2023-05-19)
+
+
+### Miscellaneous
+
+* release 1.0.0 ([9e66957](https://github.com/livenessprobe/php-base-image/commit/9e669570aa3a345ab079573d8296ead4faa7b7ba))
+
 ## [1.1.1](https://github.com/livenessprobe/php-base-image/compare/v1.1.0...v1.1.1) (2023-05-19)
 
 
